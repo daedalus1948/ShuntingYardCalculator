@@ -1,6 +1,6 @@
 # ShuntingYardCalculator
 
-An implementation of the shunting yard algorithm in order to create a basic calculator.
+This application is an arithmetic calculator, implemented with a simplifiedversion of the shunting yard algorithm.
 Calculator can correctly handle binary operators, unary operators, left/right associativity and nested parentheses.
 
 ## Additional Information
