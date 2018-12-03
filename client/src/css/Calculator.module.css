@@ -1,0 +1,7 @@
+.calculator {
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    min-width: 14em;
+    max-width: 14em;
+}
