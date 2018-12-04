@@ -7,7 +7,7 @@
     "start": "nodemon index.js",
     "calculator-test": "node calculator/__tests.js",
     "full-test-suite": "npm run calculator-test && npm test",
-    "test": "jest"  
+    "test": "jest"
   },
   "keywords": [],
   "author": "",

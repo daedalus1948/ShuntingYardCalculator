@@ -30,8 +30,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0"
   }
 }
-

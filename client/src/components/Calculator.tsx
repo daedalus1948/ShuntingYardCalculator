@@ -40,7 +40,7 @@ class Calculator extends Component<{}, IState> {
     this.setState({expression: "", result: ""});
   }
 
-  evalExpression(postRequest:any, data:any, url:string): void {
+  evalExpression(postRequest:any, data:any, url:string): Promise<string> {
     clearTimeout(this.state.lastRequest);
     let requestId = postRequest(data, url)
       .then((data:any)=>{
@@ -48,6 +48,7 @@ class Calculator extends Component<{}, IState> {
       })
       .catch((error:any)=>{console.log(error)});
     this.setState({ lastRequest: requestId, result: "calculating..." });
+    return requestId;
   }
 
   setResult (newResult:string): void {
