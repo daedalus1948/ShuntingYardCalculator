@@ -3,6 +3,8 @@
 This application is an arithmetic calculator, implemented with a simplifiedversion of the shunting yard algorithm.
 Calculator can correctly handle binary operators, unary operators, left/right associativity and nested parentheses.
 
+![ShuntingYardCalculator](https://github.com/daedalus1948/project_images/blob/master/ShuntingYardCalculator.png)
+
 ## Additional Information
 
 The frontend part of the application is written in React and Typescript.
