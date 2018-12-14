@@ -24,4 +24,4 @@ refer to the scripts part of the package.json file for further instructions.
 Javascript ES6, Typescript 3+, Node.js 10+, React 16+, Express
 
 ### Thank you creators of Node, React and others 
-### Created by Daedalus1948@github, 2018
+### Created by pre-zbr/daedalus1948@github, 2018
